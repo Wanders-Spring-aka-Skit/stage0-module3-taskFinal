@@ -5,8 +5,6 @@ public class NumberReverter {
         int firstN = number / 100;
         int secondN = (number % 100) / 10;
         int third = number % 10;
-        System.out.print(third);
-        System.out.print(secondN);
-        System.out.print(firstN);
+        System.out.print(third + "" + secondN + "" +firstN);
     }
 }
